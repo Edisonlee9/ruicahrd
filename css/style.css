@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+        linear-gradient(0deg, #CF0063, #CF0063);
+
+}
+
+.header .container {
+    color: white;
+}
+
+.header .container .content-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header .container .content-menu .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header .container .content-menu .menu i {
+    display: none;
+    max-width: 40px;
+}
+
+.header .container .content-menu .menu li a {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.header .container .bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header .container .bottom-content .img-content {
+    width: 650px;
+}
+
+.header .container .text-content .title {
+    font-size: 80px;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.header .container .text-content .subtitle {
+    font-size: 30px;
+    color: var(--white);
+    width: 677px;
+
+}
+
+.header .container .text-content .btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    border-radius: 3px;
+    background: #FC0A7E;
+    padding: 20px 40px;
+    margin-top: 25px;
+}
+
+
+
+
+.hero {
+    background: #1b1b1b;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .container .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.hero .container .text-content .title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #A8A8A8;
+}
+
+.hero .container .text-content .subtitle {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 607px;
+    text-align: center;
+}
+
+.phone {
+    margin-top: 81px;
+}
+
+.phone .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone .container .left {}
+
+.phone .container .left .uptitle {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.phone .container .left .title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 302px;
+}
+
+.phone .container .left .subtitle {
+    font-size: 16px;
+    line-height: 30px;
+    width: 306px;
+    margin-top: 22px;
+
+}
+
+.phone .container .right {}
+
+
+.oqat {}
+
+.oqat .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oqat .container .left {}
+
+.oqat .container .left .uptitle {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.oqat .container .left .title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 302px;
+}
+
+.oqat .container .left .subtitle {
+    font-size: 16px;
+    line-height: 30px;
+    width: 306px;
+    margin-top: 22px;
+}
+
+.orders {}
+
+.orders .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
+}
+
+.orders .container .right {}
+
+.orders .container .right .uptitle {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.orders .container .right .title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 302px;
+}
+
+.orders .container .right .subtitle {
+    font-size: 16px;
+    line-height: 30px;
+    width: 306px;
+    margin-top: 22px;
+}
+
+.orders .container .left {
+    margin-right: 100px;
+}
+
+.card {
+    margin-top: 100px;
+}
+
+.card .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.card .container .card {}
+
+.card .container .card .item {}
+
+.card .container .card .item .title {
+    margin-top: 40px;
+    margin-bottom: 17px;
+}
+
+.card .container .card .item .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    width: 371px;
+}
+
+
+.numbers {}
+
+.numbers .container {
+
+    margin-top: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.numbers .container .number .title {
+    font-size: 59px;
+
+}
+
+.number .container .number .subtitle {
+    font-size: 24px;
+}
+
+.burger {
+    margin-top: 160px;
+}
+
+.burger .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.burger .container .left .uptitle {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #A8A8A8;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+}
+
+.burger .container .left .title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 302px;
+}
+
+.burger .container .left .subtitle {
+    font-size: 16px;
+    line-height: 30px;
+    width: 306px;
+    margin-top: 22px;
+}
+
+.salat {}
+
+.salat .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 161px;
+    gap: 70px;
+}
+
+.salat .container .right {}
+
+.salat .container .right .uptitle {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #A8A8A8;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.salat .container .right .title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 302px;
+}
+
+.salat .container .right .subtitle {
+    font-size: 16px;
+    line-height: 30px;
+    width: 306px;
+    margin-top: 22px;
+}
+
+.head .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.head .container .h1 img {
+    margin-top: 160px;
+    margin-bottom: 63px;
+}
+
+.head .container .h1 .title {
+    width: 700px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 187px;
+}
+
+.head .container .img .i1 {
+    margin-top: 118px;
+}
+
+.start {
+    background: rgb(221, 37, 68);
+    background: linear-gradient(90deg, rgba(221, 37, 68, 1) 0%, rgba(131, 58, 180, 1) 76%);
+    width: 1485px;
+    height: 473px;
+
+}
+
+.start .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start .container h1 {
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+    margin-top: 161px;
+}
+
+.start .container .btns {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 60px;
+    height: 66px;
+    color: #fff;
+}
+
+.start .container .btns .btn {
+    background: 0;
+    border: 1px solid #B04BB3;
+    outline: 0;
+    width: 171px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.start .container .btns .btn2 {
+    background: 0;
+    border: 1px solid #B04BB3;
+    outline: 0;
+    width: 171px;
+    color: #fff;
+}
+
+.start .container .btns .btn:hover {
+    background: #FC0A7E;
+}
+
+.start .container .btns .btn2:hover {
+    background: #FC0A7E;
+}
+
+.Richard {
+    background: #1B1B1B;
+    width: 1485px;
+    height: 473px;
+    color: white;
+    text-align: center;
+}
+
+.Richard .container .text_content .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 0 0 0;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.Richard .container .text_content .subtitle {
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 39px;
+}
+
+.Richard .container .text-content label {
+    width: 154px;
+    height: 70px;
+    border-radius: 0px, 3px, 3px, 0px;
+    background: #FC0A7E;
+}
