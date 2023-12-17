@@ -30,74 +30,66 @@ body {
     height: 100%;
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
         linear-gradient(0deg, #CF0063, #CF0063);
-
 }
 
-.header .container {
-    color: white;
-}
-
-.header .container .content-menu {
+.header .navbar .container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 30px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 650px;
+    padding: 30px 0;
 }
 
-.header .container .content-menu .menu {
+.header .navbar .container ul {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
     gap: 30px;
 }
 
-.header .container .content-menu .menu i {
-    display: none;
-    max-width: 40px;
+.header .navbar .container ul li {
+    color: white;
+
 }
 
-.header .container .content-menu .menu li a {
-    font-size: 16px;
-    color: var(--white);
-}
-
-.header .container .bottom-content {
+.header .hero1 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 70px;
 }
 
-.header .container .bottom-content .img-content {
-    width: 650px;
-}
+.header .hero1 .container .left {}
 
-.header .container .text-content .title {
+.header .hero1 .container .left h1 {
     font-size: 80px;
     font-weight: 400;
-    color: var(--white);
-    margin-bottom: 10px;
+    line-height: 80px;
+    color: white;
+    padding-bottom: 10px;
 }
 
-.header .container .text-content .subtitle {
+.header .hero1 .container .left h3 {
     font-size: 30px;
-    color: var(--white);
-    width: 677px;
-
-}
-
-.header .container .text-content .btn {
-    font-size: 16px;
     font-weight: 400;
-    color: var(--white);
-    border-radius: 3px;
-    background: #FC0A7E;
-    padding: 20px 40px;
-    margin-top: 25px;
+    line-height: 40px;
+    color: white;
 }
 
+.header .hero1 .container .left .btn {
+    padding: 20px 40px;
+    background: 0;
+    color: white;
+    margin-top: 25px;
+    transition: 0.3s;
+    background: #FC0A7E;
+}
 
+.header .hero1 .container .left .btn:hover {
+    background: white;
 
+    color: #FC0A7E;
+}
 
 .hero {
     background: #1b1b1b;
@@ -467,4 +459,8 @@ body {
     height: 70px;
     border-radius: 0px, 3px, 3px, 0px;
     background: #FC0A7E;
+}
+
+.head .container .img .i1 {
+    width: 100%;
 }

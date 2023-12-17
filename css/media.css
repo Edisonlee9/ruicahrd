@@ -1,3 +1,9 @@
+@media (max-width: 1122px) {
+    .header .navbar .container .menu{
+        display: none;
+    }
+}
+
 @media (max-width: 1025px) {
     .hero .container .img img {
         max-width: 600px;
@@ -7,6 +13,21 @@
 
     .hero .container .text-content .subtitle {
         max-width: 400px;
+    }
+    .header .hero1 .container {
+        flex-wrap: wrap;
+    }
+
+    .header .hero1 .container .left {
+        text-align: center;
+
+    }
+    .header {
+        text-align: center; 
+    }
+
+    .header .hero1 .container .right img {
+        display: none;
     }
 }
 
@@ -58,7 +79,7 @@
     .burger .container {
         display: flex;
 
-        flex-wrap:wrap ; 
+        flex-wrap:wrap ;
 
     }
 
